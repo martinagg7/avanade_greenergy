@@ -63,7 +63,7 @@ st.markdown("""
 img_path = Path(__file__).parent / "1.png"
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image(img_path, width=620)
+    st.image(str(img_path), width=620)
 
 st.markdown("</div>", unsafe_allow_html=True)
 
